@@ -79,3 +79,35 @@ body{
     align-items: center;
 }
 
+.recommended{
+    position: relative;
+    text-align: center;
+    top: 120px;
+}
+
+.recommended .menu_tab li{
+    display: inline-block;
+    flex-direction: column;
+    padding-right: 2rem;
+    position: relative;
+    text-align: center;
+}
+
+.btn2{
+    cursor: pointer;
+    width: fit-content;
+    height: fit-content;
+    padding: 10px 30px;
+    border: 1px solid none;
+    border-radius: 8px;
+    color: blue;
+    transition: all ease-in-out 150ms;
+}
+
+.button2{
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    column-gap: 24px;
+}
